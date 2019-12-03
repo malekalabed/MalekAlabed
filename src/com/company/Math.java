@@ -1,11 +1,13 @@
 package com.company;
 
 public class Math {
-    public static void main(String []args) {
-        int first = 5, second = 5;
-        int sum = first + second;
-        System.out.println(sum);
+    public int  add(int first, int second) {
+
+       int sum =  first + second;
+       System.out.println(sum);
+       return sum;
     }
 
 
 }
+
